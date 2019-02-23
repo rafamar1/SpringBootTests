@@ -2,6 +2,7 @@ package com.firstsads;
 
 public class Ad {
 	
+	private Integer id;
 	private String name;
 	private String subject;
 	private String comment;
@@ -13,8 +14,17 @@ public class Ad {
 		this.name = name;
 		this.subject = subject;
 		this.comment = comment;
-	}
+	}	
 	
+	
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
 	public String getName() {
 		return name;
 	}
